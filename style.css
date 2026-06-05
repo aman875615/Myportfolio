@@ -967,3 +967,14 @@ img {
     transform: translateY(35px);
   }
 }
+
+/*==================== ACHIEVEMENTS CARDS HOVER ====================*/
+.achievements__card {
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), border-color 0.3s ease;
+}
+
+.achievements__card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+  border-color: var(--first-color) !important;
+}
